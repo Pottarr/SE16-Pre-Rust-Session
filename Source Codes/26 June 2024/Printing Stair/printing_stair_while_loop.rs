@@ -1,9 +1,9 @@
 fn main() {
     let mut i = 1;
-    let mut j = 1;
-    let mut k = 1;
     let height = 6;
     while i <= height {
+        let mut j = 1;
+        let mut k = 1;
         while k <= height - i {
             print!(" ");
             k += 1;

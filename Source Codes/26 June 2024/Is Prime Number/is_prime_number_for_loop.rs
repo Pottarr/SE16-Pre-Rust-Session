@@ -13,7 +13,6 @@ fn is_prime(number: u32) -> bool {
     } else {
         return true;
     }
-
 }
 
 fn main() {
